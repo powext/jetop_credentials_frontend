@@ -27,6 +27,7 @@ const LoginScreen = () => {
   return (
     <div className="login-root">
       <LoginLeft googleLoginOnClick={signIn} />
+      <p>Ciaooo</p>
       <LoginRight />
     </div>
   )
